@@ -1,0 +1,17 @@
+# Ambiente virtual
+.venv/
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+
+# Permitir apenas o modelo de exemplo
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Banco vetorial gerado pelo notebook
+chroma_regras_futebol/
